@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background: linear-gradient(to right, purple, blue)
+}
+
+.heading {
+  border: 1px solid blue;  
+  background: linear-gradient(to right, purple, blue)
+}
+
+.T-heading {
+  color: white;  
+  font-family: cursive;
+  size: 10px;
+}
+
+.main {
+  background: linear-gradient(to right, purple, blue)
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#h, #m, #s {
+  font-family: cursive;
+  color: aliceblue;
+  margin: 1rem;
+}
+
+#inputs {
+  border-radius: 2rem;
+  border: none; 
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-family: cursive;
+  color: purple;
+  height: 100%;
+}
+
+.click {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  width: 20%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 2px solid blue;  
+  font-family: cursive;
+  color: mintcream; 
+  background: linear-gradient(to right, rgb(114, 84, 233), rgb(118, 14, 237));
+}
+
+.clock { 
+  height: 100%;
+  margin: 2rem 2rem 1rem 2rem;  
+  display: flex;
+  justify-content: center;
+}
+
+#clock-values {
+  border: 5px solid rebeccapurple; 
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: white;
+  color:rgb(118, 14, 237); 
+  font-family: cursive;
+}
+
+.time-up {
+  border: none; 
+  font-size: 3rem;
+  margin: 1rem 2rem 2rem 2rem; 
+  font-family: cursive;
+  padding: 0.8rem;
+  color: rgb(191, 58, 58);
+}
+
+.last-buttons {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5rem 5rem 4rem 5rem;
+}
+
+.btm-button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-family: cursive;
+  color:black;
+  background: white;
+  cursor: pointer;
+  width: 8%;
+}
+
+#b1 {
+  margin-right: 3rem;
+}
