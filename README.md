@@ -2,6 +2,13 @@
 
 This is a simple react app using react that using the primary features of react and javascript. 
 
+# Technologies Used
+
+1. React. 
+2. HTML5.
+3. JavaScript.
+4. CSS3. 
+
 # Instructions
 
 1. Anyone in the application can easily set the timer by typing the required fields in the input fields. 
